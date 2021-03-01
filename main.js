@@ -1,16 +1,22 @@
-const password = document.getElementById('psw')
-const password = document.getElementById('psw-repeat')
 
-form.addEventListener('submit', (e) => {
+function validation(){
+
+    const psw = document.getElementById('psw')
+    const pswrepeat = document.getElementById('psw-repeat')
+    
+        
+        if (psw.value != pswrepeat.value) {
+            alert('Mot de passe non similaire')
+            return false;
+        }
+      
+}
     
 
-    if (psw.value === psw-repeat.value) {
-        alert('Mot de passe non similaire')
-        return false;
-    }
-  
-    
-})
+
+
+
+
 
 
     
